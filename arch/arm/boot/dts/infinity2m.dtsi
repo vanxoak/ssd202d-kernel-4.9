@@ -182,7 +182,7 @@
 
         hdmitx: hdmitx {
             compatible = "sstar,hdmitx";
-            status = "ok";
+            status = "disabled";
             i2c_id = <0>;
             hpd_gpio = <89>;
             i2c_sw = <1>;

@@ -87,8 +87,8 @@
                 <PAD_UART0_TX         PINMUX_FOR_UART0_MODE_1       MDRV_PUSE_UART0_TX >,
                 <PAD_UART1_RX        PINMUX_FOR_UART1_MODE_1        MDRV_PUSE_UART1_RX >,
                 <PAD_UART1_TX        PINMUX_FOR_UART1_MODE_1        MDRV_PUSE_UART1_TX >,
-                //<PAD_GPIO8           PINMUX_FOR_UART2_MODE_2        MDRV_PUSE_UART2_RX >,
-                //<PAD_GPIO9           PINMUX_FOR_UART2_MODE_2        MDRV_PUSE_UART2_TX >,
+                <PAD_GPIO8           PINMUX_FOR_UART2_MODE_2        MDRV_PUSE_UART2_RX >,
+                <PAD_GPIO9           PINMUX_FOR_UART2_MODE_2        MDRV_PUSE_UART2_TX >,
 
 
                 //<PAD_UART1_RX  >,

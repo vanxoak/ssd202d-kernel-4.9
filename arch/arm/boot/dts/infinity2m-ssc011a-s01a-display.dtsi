@@ -22,11 +22,13 @@
             vid-num = /bits/ 8 <2>;
             vid-gpios = /bits/ 8 <PAD_FUART_CTS PAD_FUART_RTS>;
         };
+
 		core_voltage {
             vid_width = <1>;
             vid_gpios = <PAD_SAR_GPIO1>;
             vid_voltages = <900 1000>;  //2b'00 2b'01
         };
+
         i2c0@0{
             compatible = "sstar,i2c";
             reg = <0x1F223000 0x200>,<0x1F203c00 0x200>,<0x1F207000 0x200>;
@@ -114,6 +116,7 @@
             sda-gpio = <PAD_GPIO12>;
             status = "disabled";
         };
+
 		sound {
             compatible = "sstar,audio";
 //            reg = <0x1F000000 0x1000000>;
@@ -131,7 +134,7 @@
             digmic-padmux = <2>;
             i2s-padmux = <2>;
             keep-i2s-clk = <0>;
-            status = "ok";
+            status = "disabled";
         };
 		
 		pwm {
@@ -140,12 +143,12 @@
             clocks = <&CLK_xtali_12m>;
             npwm = <2>;
             pad-ctrl = <PAD_GPIO4>;
-            status = "ok";  // no available pads
+            status = "disabled";  // no available pads
         };
 		
 		disp: disp {
             compatible = "sstar,disp";
-            status = "ok";
+            status = "disabled";
             interrupts = <GIC_SPI INT_IRQ_DISP0 IRQ_TYPE_LEVEL_HIGH>, <GIC_SPI INT_IRQ_DISP_1 IRQ_TYPE_LEVEL_HIGH>, <GIC_SPI INT_IRQ_DISP_3 IRQ_TYPE_LEVEL_HIGH>;
             clocks = <&CLK_mop>, <&CLK_disp_432>, <&CLK_disp_216>;
             clock-names = "CLK_mop", "CLK_disp_432", "CLK_disp_216";

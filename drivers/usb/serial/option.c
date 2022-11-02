@@ -700,9 +700,10 @@ static const struct option_blacklist_info simcom_pid9011_blacklist = {
 };
 
 static const struct usb_device_id option_ids[] = {
+	{ USB_DEVICE(0x1782, 0x4e00)},	//Air600UG
 	{ USB_DEVICE(0x2C7C, 0x0125)}, //Quectel EC20 kuangwh
 	{ USB_DEVICE(0x2C7C, 0x6002) }, /* Quectel EC200S */
-    	{ USB_DEVICE(0x0a5c,0xbd27)},	//AP6269
+    { USB_DEVICE(0x0a5c,0xbd27)},	//AP6269
 	{ USB_DEVICE(0X0a5c,0X0bdc)},	//AP6269
 	{ USB_DEVICE(0x2df3,0x9d03)},
 	{ USB_DEVICE(0x1e0e,0x9011)},

@@ -93,7 +93,7 @@
                 compatible = "at24,24c02";
                 reg = <0x50>;
                 pagesize = <16>;
-            }
+            };
         };
 
         gpioi2c {

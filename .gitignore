@@ -126,3 +126,5 @@ drivers/sstar/include/ms_version.h
 
 # vim project
 .vimproj/
+
+cp_kernel.sh

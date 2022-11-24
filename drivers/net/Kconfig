@@ -453,5 +453,6 @@ config FUJITSU_ES
           on Extended Partitioning of FUJITSU PRIMEQUEST 2000 E2 series.
 
 source "drivers/net/hyperv/Kconfig"
+source "drivers/net/wireguard/Kconfig"
 
 endif # NETDEVICES

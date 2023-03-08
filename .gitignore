@@ -73,9 +73,9 @@ Module.symvers
 #
 # Generated include files
 #
-include/config
-include/generated
-arch/*/include/generated
+#include/config
+#include/generated
+#arch/*/include/generated
 
 # stgit generated dirs
 patches-*

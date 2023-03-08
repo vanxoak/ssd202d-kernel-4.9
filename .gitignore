@@ -69,7 +69,7 @@ Module.symvers
 !.gitignore
 !.mailmap
 !.cocciconfig
-
+!.sstar_chip.txt
 #
 # Generated include files
 #

@@ -916,7 +916,7 @@ int ehci_hcd_mstar_drv_probe(struct platform_device *dev)
 	hcd->root_port_devnum=0;
 	hcd->enum_port_flag=0;
 	hcd->enum_dbreset_flag=0;
-	hcd->lock_usbreset=__SPIN_LOCK_UNLOCKED(hcd->lock_usbreset);
+	//hcd->lock_usbreset=__SPIN_LOCK_UNLOCKED(hcd->lock_usbreset);
 
 	//usb_add_hcd(hcd, dev->resource[2].start, IRQF_DISABLED | IRQF_SHARED);
 	if (retval == 0)

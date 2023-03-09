@@ -96,7 +96,7 @@ typedef enum
 
 typedef struct
 {
-    u32 nPriv[11];
+    u32 nPriv[13];
 } CamOsMutex_t;
 
 typedef struct
@@ -116,7 +116,7 @@ typedef struct
 
 typedef struct
 {
-    u32 nPriv[6];
+    u32 nPriv[15];
 }CamOsSpinlock_t;
 
 typedef struct

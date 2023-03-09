@@ -206,5 +206,4 @@ source "drivers/fpga/Kconfig"
 
 source "drivers/sstar/Kconfig"
 
-source "drivers/itrunk/Kconfig"
 endmenu
